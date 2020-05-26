@@ -16,10 +16,6 @@ buildoptions {
     "/Qpar", "/Qpar-report:1", "/Qvec-report:1"
 }
 
-buildoptions {
-    "/FA"
-}
-
 filter "configurations:Release"
     linkoptions {
         "/LTCG"
